@@ -1,0 +1,9 @@
+template SwapPool
+  with
+    owner: Party
+    tokenA: Text
+    tokenB: Text
+    feeTier: Decimal
+  where
+    signatory owner
+    ensure feeTier > 0.0
