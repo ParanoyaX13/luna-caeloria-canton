@@ -1,0 +1,8 @@
+# Judge Testing Guide
+
+1. Run `daml start`
+2. Open http://localhost:3000
+3. Create pool: USDC + ETH (0.3% fee)
+4. Add liquidity: 1000 USDC + 0.5 ETH
+5. Swap: 100 USDC → ETH
+6. **Verify**: No public trace of user address (privacy preserved)
